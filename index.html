@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bento Start</title>
+  <link rel="icon" id="fav" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📑</text></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="bg" class="bg"></div>
+  <div class="overlay"></div>
+
+  <div class="wrap">
+    <div class="grid">
+
+      <!-- TOP: Clock + Weather (merged, full width) -->
+      <section class="card top">
+        <div class="top-left">
+          <div class="time" id="time">--:--</div>
+          <div class="date muted" id="date">Loading date…</div>
+        </div>
+        <div class="top-right" id="weatherCard">
+          <div class="w-flex">
+            <div id="wIcon" style="font-size:36px">⌛</div>
+            <div style="margin-left:10px">
+              <div class="w-temp" id="wTemp">--°</div>
+              <div class="w-desc muted" id="wDesc">Getting your location…</div>
+            </div>
+          </div>
+          <div class="w-grid" style="margin-top:12px">
+            <div class="pill"><span class="muted">Wind</span><div id="wWind">-- km/h</div></div>
+            <div class="pill"><span class="muted">Day/Night</span><div id="wDay">--</div></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- MIDDLE LEFT: Bookmarks -->
+      <section class="card bookmarks" id="bookmarksCard">
+        <div class="title">Bookmarks</div>
+        <div class="bm-grid" id="bmGrid"></div>
+      </section>
+
+      <!-- MIDDLE RIGHT: To-Do -->
+      <section class="card todo" id="todoCard">
+        <div class="title">To‑Do</div>
+        <form class="todo-add" id="todoForm">
+          <input id="todoInput" type="text" placeholder="Add a task and hit Enter…" />
+          <button type="submit">Add</button>
+        </form>
+        <div class="todo-list" id="todoList"></div>
+      </section>
+
+    </div>
+  </div>
+
+  <button id="settingsBtn" class="settings">⚙️</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
