@@ -14,7 +14,6 @@ Welcome to Bento — a modern, clean, and snappy version of the classic Bento-st
 
 📸 Sneak Peek
 
-Add your screenshot here
 <img width="1165" height="628" alt="image" src="https://github.com/user-attachments/assets/3ecd9b5d-20ce-4484-b536-a96db93b1a4b" />
 
 
