@@ -1,5 +1,5 @@
 
-# 🍱 Bento Rebuilt
+# 🍱 Bento
 
 Welcome to **Bento** — a modern, clean, and snappy version of the classic Bento-style New Tab. Think of it as your personal digital lunchbox, but instead of sushi and dumplings, it Bookmarks and A Todo List.
 
