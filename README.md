@@ -1,7 +1,7 @@
 
-# 🍱 Bento
+# ✈️ Page Pilot
 
-Welcome to **Bento** — a modern, clean, and snappy version of the classic Bento-style New Tab. Think of it as your personal digital lunchbox, but instead of sushi and dumplings, it Bookmarks and A Todo List.
+Welcome to **Page Pilot** — a modern, clean, and snappy version of the classic Bento-style New Tab. Think of it as your personal digital lunchbox, but instead of sushi and dumplings, it Bookmarks and A Todo List.
 
 ---
 
