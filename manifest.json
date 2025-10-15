@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Bento Start (Rebuilt)",
-  "version": "2.0",
-  "description": "Bento new tab with double-buffered Unsplash wallpapers, emoji bookmarks with shortcuts, todo, clock+weather, and glass UI.",
+  "name": "Page Pilot",
+  "version": "1.0",
+  "description": "Bento new tab with Unsplash wallpapers, emoji bookmarks with shortcuts, todo, clock+weather, and glass UI.",
   "chrome_url_overrides": {
     "newtab": "index.html"
   },
