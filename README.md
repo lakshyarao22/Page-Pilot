@@ -37,8 +37,3 @@ Because I wanted a keyboad driven Minimal New tab. And was unable to find one.
 
 Issues, suggestions, or PRs are always welcome — just be nice 😄
 
----
-
-## 📜 License
-
-MIT License — use it, tweak it, break it, make it yours.
