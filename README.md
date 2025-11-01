@@ -22,7 +22,7 @@ Welcome to **Page Pilot** — a modern, clean, and snappy version of the classic
 
 ## 🚀 Getting Started
 
-Download from Google Chrome Web Store (Publish Pending)
+Download from [Google Chrome Web Store](https://chromewebstore.google.com/detail/page-pilot/fbjapfnmaijdmggcbmnghmgacejokmce)
 
 
 ---
