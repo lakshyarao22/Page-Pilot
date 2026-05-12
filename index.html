@@ -11,11 +11,11 @@
   <div id="bg" class="bg"></div>
   <div class="overlay"></div>
 
-  <div class="wrap">
-    <div class="grid">
+  <main class="wrap">
+    <div class="grid" id="widgetGrid">
 
-      <!-- TOP: Clock + Weather (merged, full width) -->
-      <section class="card top">
+      <!-- Clock + Weather -->
+      <section class="card top" data-widget="clock">
         <div class="top-left">
           <div class="time" id="time">--:--</div>
           <div class="date muted" id="date">Loading date…</div>
@@ -35,14 +35,14 @@
         </div>
       </section>
 
-      <!-- MIDDLE LEFT: Bookmarks -->
-      <section class="card bookmarks" id="bookmarksCard">
+      <!-- Bookmarks -->
+      <section class="card bookmarks" data-widget="bookmarks" id="bookmarksCard">
         <div class="title">Bookmarks</div>
         <div class="bm-grid" id="bmGrid"></div>
       </section>
 
-      <!-- MIDDLE RIGHT: To-Do -->
-      <section class="card todo" id="todoCard">
+      <!-- To-Do -->
+      <section class="card todo" data-widget="todo" id="todoCard">
         <div class="title">To‑Do</div>
         <form class="todo-add" id="todoForm">
           <input id="todoInput" type="text" placeholder="Add a task and hit Enter…" />
@@ -52,9 +52,35 @@
       </section>
 
     </div>
+  </main>
+
+  <button id="settingsBtn" class="settings-btn" aria-label="Settings">⚙️</button>
+
+  <!-- Shortcut overlay -->
+  <div id="shortcutOverlay" class="shortcut-overlay hidden">
+    <div class="shortcut-hint">Press a shortcut key to navigate · <kbd>?</kbd> or <kbd>Esc</kbd> to close</div>
   </div>
 
-  <button id="settingsBtn" class="settings">⚙️</button>
+  <!-- Modal -->
+  <div id="modal" class="modal hidden">
+    <div class="modal-backdrop"></div>
+    <div class="modal-panel">
+      <div class="modal-header">
+        <h2 id="modalTitle"></h2>
+        <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+      </div>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <!-- Toasts -->
+  <div id="toastContainer" class="toast-container"></div>
+
+  <!-- First-run legend -->
+  <div id="footerLegend" class="footer-legend">
+    Press <kbd>?</kbd> for shortcuts · ⚙️ for settings
+    <button class="legend-close" id="legendDismiss" aria-label="Dismiss">&times;</button>
+  </div>
 
   <script src="script.js"></script>
 </body>

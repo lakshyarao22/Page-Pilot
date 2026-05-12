@@ -1,11 +1,17 @@
 {
   "manifest_version": 3,
   "name": "Page Pilot",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Bento new tab with Unsplash wallpapers, emoji bookmarks with shortcuts, todo, clock+weather, and glass UI.",
   "chrome_url_overrides": {
     "newtab": "index.html"
   },
   "permissions": [
+  ],
+  "host_permissions": [
+    "https://api.unsplash.com/*",
+    "https://api.open-meteo.com/*",
+    "https://images.unsplash.com/*",
+    "https://picsum.photos/*"
   ]
 }
