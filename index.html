@@ -51,6 +51,86 @@
         <div class="todo-list" id="todoList"></div>
       </section>
 
+      <!-- Day Greeting + Quote -->
+      <section class="card greeting" data-widget="greeting" id="greetingCard">
+        <div class="greeting-text" id="greetingText">Good morning ✨</div>
+        <div class="greeting-quote" id="greetingQuote"></div>
+      </section>
+
+      <!-- Pomodoro Timer -->
+      <section class="card pomo" data-widget="pomo" id="pomoCard">
+        <div class="title">Pomodoro</div>
+        <div class="pomo-display">
+          <div class="pomo-ring" id="pomoRing">
+            <svg viewBox="0 0 80 80" class="pomo-svg">
+              <circle cx="40" cy="40" r="34" class="pomo-track"/>
+              <circle cx="40" cy="40" r="34" class="pomo-progress" id="pomoArc"/>
+            </svg>
+            <div class="pomo-time" id="pomoTime">25:00</div>
+          </div>
+          <div class="pomo-mode" id="pomoMode">Focus</div>
+        </div>
+        <div class="pomo-controls">
+          <button class="btn btn-primary pomo-btn" id="pomoToggle">▶ Start</button>
+          <button class="btn btn-ghost pomo-btn" id="pomoReset">↺ Reset</button>
+        </div>
+        <div class="pomo-sessions muted" id="pomoSessions">Sessions today: 0</div>
+      </section>
+
+      <!-- Quick Notes -->
+      <section class="card notes" data-widget="notes" id="notesCard">
+        <div class="title">Quick Notes</div>
+        <textarea id="notesArea" class="notes-area" placeholder="Jot something down…"></textarea>
+        <div class="notes-footer muted" id="notesStatus">Saved</div>
+      </section>
+
+      <!-- Habit Tracker -->
+      <section class="card habits" data-widget="habits" id="habitsCard">
+        <div class="card-header-row">
+          <div class="title">Habits</div>
+          <button class="btn btn-ghost btn-sm" id="addHabitBtn">+ Add</button>
+        </div>
+        <div id="habitList"></div>
+      </section>
+
+      <!-- World Clocks -->
+      <section class="card worldclocks" data-widget="worldclocks" id="worldclocksCard">
+        <div class="card-header-row">
+          <div class="title">World Clocks</div>
+          <button class="btn btn-ghost btn-sm" id="addClockBtn">+ Add</button>
+        </div>
+        <div id="worldClockList"></div>
+      </section>
+
+      <!-- Countdown -->
+      <section class="card countdown" data-widget="countdown" id="countdownCard">
+        <div class="card-header-row">
+          <div class="title">Countdown</div>
+          <button class="btn btn-ghost btn-sm" id="editCountdownBtn">+ Add</button>
+        </div>
+        <div id="countdownDisplay"></div>
+      </section>
+
+      <!-- Year Progress -->
+      <section class="card yearprogress" data-widget="yearprogress" id="yearProgressCard">
+        <div class="title">Year Progress</div>
+        <div class="year-progress-grid" id="yearProgressGrid"></div>
+        <div class="year-stats">
+          <div class="year-stat-item">
+            <div class="year-stat-value" id="yearDaysPassed">0</div>
+            <div>Days Passed</div>
+          </div>
+          <div class="year-stat-item">
+            <div class="year-stat-value" id="yearPercent">0%</div>
+            <div>Complete</div>
+          </div>
+          <div class="year-stat-item">
+            <div class="year-stat-value" id="yearDaysLeft">0</div>
+            <div>Days Left</div>
+          </div>
+        </div>
+      </section>
+
     </div>
   </main>
 

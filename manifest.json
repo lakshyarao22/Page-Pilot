@@ -7,6 +7,7 @@
     "newtab": "index.html"
   },
   "permissions": [
+    "notifications"
   ],
   "host_permissions": [
     "https://api.unsplash.com/*",

@@ -1,0 +1,37 @@
+Productivity
+
+Pomodoro / Focus timer — 25/5 cycles, keyboard space to start/pause when widget is focused.
+Quick Notes / Scratchpad — single markdown-rendered textarea, autosaved. Great for "stuff I'll forget."
+Habit tracker — small grid of dots for the last 30 days per habit.
+Countdown — to a date you set (trip, deadline, birthday).
+Calendar month view — read-only, highlights today; optional ICS feed URL.
+
+
+Information
+
+RSS / Hacker News / Reddit top posts — pick a feed URL, show top 5 headlines.
+GitHub activity — your recent notifications or starred-repo releases (needs PAT).
+Crypto / Stock ticker — symbols user picks; one row each.
+Currency converter — two dropdowns + amount.
+Word/quote of the day.
+
+Ambient
+Now playing — Spotify/YT-Music via Media Session API or webhook.
+Lo-fi / nature sounds — small play button, no autoplay.
+Moon phase + sunrise/sunset — pairs nicely with weather (Open-Meteo provides this for free).
+World clocks — pick 2–4 timezones.
+
+
+Personal
+
+Day greeting — "Good morning, Lakshay" with a rotating quote.
+Random bookmark / "stumble" — opens a random saved bookmark.
+Recently closed tabs (needs sessions permission).
+Reading list — articles to read later (URL + title).
+
+
+Fun / micro
+
+Step-count / wellness (manual or HealthKit-style import).
+Dice / random picker — for indecision.
+Tiny canvas doodle pad.
