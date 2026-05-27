@@ -15,8 +15,8 @@ Welcome to **Page Pilot** — a modern, clean, and snappy version of the classic
 ---
 
 ## 📸 Sneak Peek
+<img width="1141" height="1013" alt="image" src="https://github.com/user-attachments/assets/1d026d80-358c-4529-be8f-81bab666325b" />
 
-<img width="1165" height="628" alt="image" src="https://github.com/user-attachments/assets/3ecd9b5d-20ce-4484-b536-a96db93b1a4b" />
 
 ---
 
